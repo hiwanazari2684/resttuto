@@ -7,4 +7,4 @@ $conn=mysqli_connect($host,$user,$pass,$db);
 if (!$conn) {
     die('connection is failed'.mysqli_connect_error());
 }
-?>
+?> 

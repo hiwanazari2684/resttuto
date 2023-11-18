@@ -1,6 +1,6 @@
 <?php
 require('../inc/db.php');
-
+ 
 function usersList() {
     global $conn;
     $query='select * from users';
